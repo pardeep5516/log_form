@@ -12,15 +12,18 @@ class LoginForm extends StatelessWidget {
           TextFormField(
             decoration: const InputDecoration(
               hintText: "xyz@mail.com",
-              labelText: "Email",
+              icon: Icon(Icons.mail),
+              labelText: "Email.",
             ),
           ),
           TextFormField(
             decoration: const InputDecoration(
-              hintText: String.fromEnvironment("Password"),
+              hintText: String.fromEnvironment("Password."),
+              icon: Icon(Icons.lock),
               labelText: "Password",
             ),
           ),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {},
             child: const Text("Submit"),

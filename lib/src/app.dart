@@ -14,6 +14,8 @@ class App extends StatelessWidget {
             "Login",
             style: TextStyle(
               color: Colors.grey,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
             ),
           ),
         ),
