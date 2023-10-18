@@ -17,8 +17,9 @@ class LoginForm extends StatelessWidget {
             ),
           ),
           TextFormField(
+            obscureText: true,
             decoration: const InputDecoration(
-              hintText: String.fromEnvironment("Password."),
+              hintText: "********",
               icon: Icon(Icons.lock),
               labelText: "Password",
             ),
